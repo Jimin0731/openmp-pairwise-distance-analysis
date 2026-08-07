@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<rect width="1200" height="760" fill="#F4F7FA"/>
+<text x="60.0" y="62.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#0F2742">Historical 4-thread vs 8-thread results</text>
+<text x="60.0" y="92.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#5E6B78">Only the two measured thread counts are shown; no intermediate scaling curve is implied.</text>
+<rect x="60.0" y="135.0" width="1080.0" height="520.0" rx="12" fill="#FFFFFF" stroke="#DCE4EA"/>
+
+<line x1="140.0" y1="555.0" x2="1070.0" y2="555.0" stroke="#DCE4EA"/>
+<text x="126.0" y="559.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">0s</text>
+<line x1="140.0" y1="465.0" x2="1070.0" y2="465.0" stroke="#DCE4EA"/>
+<text x="126.0" y="469.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">20s</text>
+<line x1="140.0" y1="375.0" x2="1070.0" y2="375.0" stroke="#DCE4EA"/>
+<text x="126.0" y="379.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">40s</text>
+<line x1="140.0" y1="285.0" x2="1070.0" y2="285.0" stroke="#DCE4EA"/>
+<text x="126.0" y="289.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">60s</text>
+<line x1="140.0" y1="195.0" x2="1070.0" y2="195.0" stroke="#DCE4EA"/>
+<text x="126.0" y="199.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">80s</text>
+<rect x="222.0" y="459.7" width="72.0" height="95.3" rx="4" fill="#2878B5"/>
+<text x="258.0" y="450.7" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650" fill="#182230">21.17s</text>
+<text x="258.0" y="577.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">4 threads</text>
+<rect x="307.0" y="477.3" width="72.0" height="77.7" rx="4" fill="#16A085"/>
+<text x="343.0" y="468.3" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650" fill="#182230">17.26s</text>
+<text x="343.0" y="577.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">8 threads</text>
+<text x="295.0" y="610.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Standard naïve static</text>
+<rect x="532.0" y="258.7" width="72.0" height="296.3" rx="4" fill="#2878B5"/>
+<text x="568.0" y="249.7" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650" fill="#182230">65.85s</text>
+<text x="568.0" y="577.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">4 threads</text>
+<rect x="617.0" y="358.4" width="72.0" height="196.6" rx="4" fill="#16A085"/>
+<text x="653.0" y="349.4" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650" fill="#182230">43.68s</text>
+<text x="653.0" y="577.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">8 threads</text>
+<text x="605.0" y="610.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Wraparound naïve static</text>
+<rect x="842.0" y="431.6" width="72.0" height="123.4" rx="4" fill="#2878B5"/>
+<text x="878.0" y="422.6" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650" fill="#182230">27.42s</text>
+<text x="878.0" y="577.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">4 threads</text>
+<rect x="927.0" y="492.0" width="72.0" height="63.0" rx="4" fill="#16A085"/>
+<text x="963.0" y="483.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650" fill="#182230">14.01s</text>
+<text x="963.0" y="577.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#5E6B78">8 threads</text>
+<text x="915.0" y="610.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Optimized dynamic</text>
+<text x="915.0" y="627.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">(geometry not specified)</text>
+<line x1="60" y1="710" x2="1140" y2="710" stroke="#DCE4EA"/>
+<text x="60.0" y="737.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#5E6B78">REPORT-TABLE RESULT — Table 4 transcription; not reproduced timings</text>
+</svg>

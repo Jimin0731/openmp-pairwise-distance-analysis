@@ -1,0 +1,13 @@
+geometry,algorithm,schedule,threads,time_seconds,evidence_type,source_location
+standard,naive,static,8,17.26,report-table-result,"original-report.pdf, Table 1 and Table 4"
+standard,naive,dynamic,8,18.82,report-table-result,"original-report.pdf, Table 1"
+standard,naive,guided,8,17.95,report-table-result,"original-report.pdf, Table 1"
+wraparound,naive,static,8,43.68,report-table-result,"original-report.pdf, Table 2 and Table 4"
+wraparound,naive,dynamic,8,18.82,report-table-result,"original-report.pdf, Table 2"
+wraparound,naive,guided,8,17.95,report-table-result,"original-report.pdf, Table 2"
+not-specified,optimized,static,8,18.58,report-table-result,"original-report.pdf, Table 3"
+not-specified,optimized,dynamic,8,14.01,report-table-result,"original-report.pdf, Table 3 and Table 4"
+not-specified,optimized,guided,8,15.12,report-table-result,"original-report.pdf, Table 3"
+standard,naive,static,4,21.17,report-table-result,"original-report.pdf, Table 4"
+wraparound,naive,static,4,65.85,report-table-result,"original-report.pdf, Table 4"
+not-specified,optimized,dynamic,4,27.42,report-table-result,"original-report.pdf, Table 4"
