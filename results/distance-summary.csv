@@ -1,0 +1,5 @@
+geometry,measure,source_file,row_count,valid_count,missing_count,invalid_count,mean,minimum,maximum,population_stddev,reduction_vs_standard_percent,evidence_type,source_sha256
+standard,nearest,results/raw/standard_nearest.csv,100000,100000,0,0,0.001584506530,0.000006000000,0.007190000000,0.000831629510,,derived-from-committed-raw-csv,c1e42da0cebe5c3b574853fa86852d1606dc12590018b8820183433d205cb17a
+wraparound,nearest,results/raw/wrap_nearest.csv,100000,100000,0,0,0.001582369510,0.000006000000,0.006271000000,0.000828306403,0.134869750268,derived-from-committed-raw-csv,fe6e5504a802b954acc934c0fcd8753068d8a09c6224620d94f9775fecad0d8e
+standard,furthest,results/raw/standard_furthest.csv,100000,100000,0,0,1.069091173640,0.706757000000,1.412421000000,0.144315652554,,derived-from-committed-raw-csv,52702aec7e66154fc35a7f2b3e5c32a1e337f66b59e3fc4724b0087606d21932
+wraparound,furthest,results/raw/wrap_furthest.csv,100000,100000,0,0,0.705709488330,0.701591000000,0.707103000000,0.000729421198,33.989775079032,derived-from-committed-raw-csv,941567ef73bf7e7d2c5e537ffb30057470956d59bd2255cdfb41d40c8761d0c5

@@ -1,0 +1,41 @@
+name: correctness
+
+on:
+  push:
+    branches:
+      - main
+      - "codex/**"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GCC and OpenMP build
+        env:
+          CC: gcc
+          CXX: g++
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Compile with warnings enabled
+        run: cmake --build build --parallel 2
+
+      - name: Run deterministic 1, 2, and 4-thread tests
+        run: ctest --test-dir build --output-on-failure
+
+      - name: Validate committed raw CSV statistics
+        run: python3 scripts/analyze_distances.py --check
+
+      - name: Verify deterministic SVG assets
+        run: python3 scripts/generate_assets.py --check
+
+      - name: Check patch whitespace
+        run: git diff --check

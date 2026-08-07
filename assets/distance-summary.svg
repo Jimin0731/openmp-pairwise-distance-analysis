@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<rect width="1200" height="760" fill="#F4F7FA"/>
+<text x="60.0" y="62.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#0F2742">Geometry changes global distances, not local spacing</text>
+<text x="60.0" y="92.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#5E6B78">Nearest means are almost unchanged; furthest means reflect the different topology.</text>
+<rect x="60.0" y="135.0" width="520.0" height="500.0" rx="12" fill="#FFFFFF" stroke="#DCE4EA"/>
+
+<text x="84.0" y="173.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#182230">Average nearest-neighbour distance</text>
+<line x1="150.0" y1="565.0" x2="540.0" y2="565.0" stroke="#DCE4EA"/>
+<text x="140.0" y="569.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.000000</text>
+<line x1="150.0" y1="475.0" x2="540.0" y2="475.0" stroke="#DCE4EA"/>
+<text x="140.0" y="479.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.000500</text>
+<line x1="150.0" y1="385.0" x2="540.0" y2="385.0" stroke="#DCE4EA"/>
+<text x="140.0" y="389.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.001000</text>
+<line x1="150.0" y1="295.0" x2="540.0" y2="295.0" stroke="#DCE4EA"/>
+<text x="140.0" y="299.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.001500</text>
+<line x1="150.0" y1="205.0" x2="540.0" y2="205.0" stroke="#DCE4EA"/>
+<text x="140.0" y="209.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.002000</text>
+<rect x="202.5" y="279.8" width="90.0" height="285.2" rx="4" fill="#2878B5"/>
+<text x="247.5" y="589.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Standard</text>
+<text x="247.5" y="269.8" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#182230">0.001585</text>
+<rect x="397.5" y="280.2" width="90.0" height="284.8" rx="4" fill="#16A085"/>
+<text x="442.5" y="589.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Wraparound</text>
+<text x="442.5" y="270.2" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#182230">0.001582</text>
+<rect x="620.0" y="135.0" width="520.0" height="500.0" rx="12" fill="#FFFFFF" stroke="#DCE4EA"/>
+
+<text x="644.0" y="173.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#182230">Average furthest-neighbour distance</text>
+<line x1="710.0" y1="565.0" x2="1100.0" y2="565.0" stroke="#DCE4EA"/>
+<text x="700.0" y="569.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.000</text>
+<line x1="710.0" y1="475.0" x2="1100.0" y2="475.0" stroke="#DCE4EA"/>
+<text x="700.0" y="479.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.300</text>
+<line x1="710.0" y1="385.0" x2="1100.0" y2="385.0" stroke="#DCE4EA"/>
+<text x="700.0" y="389.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.600</text>
+<line x1="710.0" y1="295.0" x2="1100.0" y2="295.0" stroke="#DCE4EA"/>
+<text x="700.0" y="299.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">0.900</text>
+<line x1="710.0" y1="205.0" x2="1100.0" y2="205.0" stroke="#DCE4EA"/>
+<text x="700.0" y="209.0" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#5E6B78">1.200</text>
+<rect x="762.5" y="244.3" width="90.0" height="320.7" rx="4" fill="#E76F51"/>
+<text x="807.5" y="589.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Standard</text>
+<text x="807.5" y="234.3" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#182230">1.069</text>
+<rect x="957.5" y="353.3" width="90.0" height="211.7" rx="4" fill="#F4A261"/>
+<text x="1002.5" y="589.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#182230">Wraparound</text>
+<text x="1002.5" y="343.3" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#182230">0.706</text>
+<rect x="816" y="185" width="300" height="48" rx="24" fill="#FFF3E8" stroke="#F4A261"/>
+<text x="966.0" y="216.0" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#9A4D13">33.99% lower under wraparound</text>
+<line x1="60" y1="710" x2="1140" y2="710" stroke="#DCE4EA"/>
+<text x="60.0" y="737.0" text-anchor="start" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#5E6B78">DERIVED FROM COMMITTED RAW CSV — means recalculated from 100,000 rows per file</text>
+</svg>
